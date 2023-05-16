@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul li a {
+    color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(201, 194, 194) ;
+    display: flex;
+    align-items: center;    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+nav ul li .active {
+    color: black;
+}
+
+nav ul li img {
+    width: 50px;
+}
+
+.nav-left{
+    flex: 50%;
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+    padding: 20px;
+}
+
+.nav-right a {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    border: none;
+    margin-top: 10PX;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+section {
+    display: flex;
+    width: 80%;
+}
+
+.kanan {
+    flex: 70%;
+    margin-left: 50px;
+}
+
+.kiri {
+    flex: 30%;
+}
+
+.skill {
+    display: flex;
+    margin-top: 30px;
+}
+
+.sosmed {
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
