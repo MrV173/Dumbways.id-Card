@@ -11,3 +11,6 @@ editing repository
 - git add .
 - git commit -m "your massages"
 - git push remote_name branch_name
+
+Styling : 
+inline > ID > Class > element
