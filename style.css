@@ -65,6 +65,8 @@ nav ul li img {
 section {
     display: flex;
     width: 80%;
+    justify-content: center;
+    align-items: center;
 }
 
 .kanan {
