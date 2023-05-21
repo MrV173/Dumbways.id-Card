@@ -15,7 +15,7 @@ function blog(event) {
 
     let title = document.getElementById("title").value;
     let content = document.getElementById("content").value;
-    let image = document.getElementById("input-blog-image").file;
+    let image = document.getElementById("input-blog-image").files;
 
 
     image = URL.createObjectURL(image[0]);
@@ -30,7 +30,9 @@ function blog(event) {
     };
 
 dataBlog.push(blog)
-    console.log(dataBlog);
+console.log(dataBlog);
+
+renderBlog();
 }
 
 function renderBlog() {

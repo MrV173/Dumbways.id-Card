@@ -7,6 +7,8 @@
     <title>Add Blog</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/add-blog.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
@@ -43,12 +45,12 @@
                     </div>
                 <div style="display: flex; width: 100%; margin-top: 15px;">
                     <div>
-                        <label for="start-date">Start Date</label>
-                        <input type="text" id="start-date" class="border">
+                        <label for="start-date">Start</label>
+                        <input type="number" id="start-date" class="border">
                     </div>
                     <div style="margin-left: 20px;">
                         <label for="end-date">End Date</label>
-                        <input type="text" id="end-date" class="border">
+                        <input type="number" id="end-date" class="border">
                     </div>
                 </div>
                     <div>
@@ -90,27 +92,34 @@
                 </form>
             </div>
         </div>
-
-        <div class="blog-list" id="contents">
-            <div class="blog-list-item">
-                <div class="blog-image">
-                    <img src="assets/images/foto2.jpg" alt="">
+    
+    <div class="post" id="contents">
+        <div class="anu">
+        <div>
+            <img src="assets/images/hp2.jpg">
+        </div>
+            <div class="judul">Dumbways Mobile App - 2021</div>
+            <div>Durasi : 3 bulan </div>
+            <div class="description"> App that used for dumbways student. it was deployed and can 
+            downloaded on playstore. Happy download</div>
+        <div class="logo">
+            <div><i class="fa-brands fa-google-play"></i></div>
+            <div style="margin-left: 15px;"><i class="fa-brands fa-android"></i></div>
+            <div style="margin-left: 15px;"><i class="fa-brands fa-java"></i></div>
+        </div>
+        <div>
+            <div class="tombol">
+                <div>
+                    <button class="btn-edit">Edit</button>
                 </div>
-                <div class="blog-content">
-                    <div class="btn-group">
-                        <button class="btn-edit">Edit Post</button>
-                        <button class="btn-delete">Delete Post</button>
-                    </div>
-                    <h1><a href="" target="_blank">Ini percobaan</a></h1>
-                    <div class="blog-detail">
-                        12 Mei 2023 10:30                     
-                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto deleniti tenetur repudiandae accusantium vel reiciendis iure ut sit deserunt voluptate hic ex incidunt et, quis doloremque ratione debitis nulla.</p>
-                    </div>
+                <div>
+                    <button class="btn-delete">Delete</button>
                 </div>
             </div>
         </div>
+        
     </div>
-
-    
+    </div>
+<script src="js/add-blog.js"></script> 
 </body>
 </html>
